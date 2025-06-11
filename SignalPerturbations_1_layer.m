@@ -43,7 +43,7 @@ f=4;                     % Fold Change
 n_NN=2;                 % Number of Neural Networks/Layers
 n_pure=10;              % The number of pure nodes in a layer
 n_common=0;             % The number of common nodes in a layer
-n_realiz=3000;        % Total number of realizations
+% n_realiz=3000;        % Total number of realizations
 % Change en_pert
 % - - - - - - - - - - - - -D e r i v e d  P a r a m e t e r s - - - - - - -
                         % Calculate the network size
@@ -60,7 +60,7 @@ net_size=n_pure+n_common;
 % -
 
 pert_radius=10;         % How big of a perturbation do we need
-en_pert=1000;            % How many realizations each perturbation is getting
+en_pert=2000;            % How many realizations each perturbation is getting
 n_realiz=en_pert*(2*pert_radius+1); % The total number of realizations is just
                         % the multiple of number of types of perturbations
 
