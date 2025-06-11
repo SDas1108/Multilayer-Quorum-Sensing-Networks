@@ -65,7 +65,7 @@ pert_radius=10;         % How big of a perturbation do we need
 
 % - - - - - - - - - - - E n s e m b l e .  P a r a m e t e r s - - - - - -
 % -
-en_pert=1000;            % How many realizations each perturbation is getting
+en_pert=2000;            % How many realizations each perturbation is getting
 n_realiz=en_pert*(2*pert_radius+1); % The total number of realizations is just
                         % the multiple of number of types of perturbations
 pert_count=1;
