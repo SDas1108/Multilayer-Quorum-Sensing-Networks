@@ -33,7 +33,7 @@ f=4;                     % Fold Change
 n_NN=2;                 % Number of Neural Networks/Layers
 n_common=0;             % No common nodes
 max_n_pure=20;              % Here it means the maximum number of Pure nodes we want in a network
-n_realiz=100;        % Total number of realizations
+n_realiz=1000;        % Total number of realizations
 
 weight_type=[0 1];          % 0= No Cross-Talk
                              % 1= Cross-Talk
